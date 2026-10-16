@@ -1,3 +1,4 @@
+security.profile = "personal"
 # OpenJarvis configuration — GLM-4.7-Flash eval on 8x A100-80GB
 
 # ═══════════════════════════════════════════════════════════════
@@ -122,3 +123,6 @@ db_path = "~/.openjarvis/traces.db"
 host = "127.0.0.1"
 port = 8000
 agent = "native_openhands"
+[speech]
+tts_backend = "elevenlabs" 
+voice_id = "dSEhEXLZhnZEytnJ2rRy"
